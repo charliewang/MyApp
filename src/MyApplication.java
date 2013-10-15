@@ -6,9 +6,14 @@ public class MyApplication {
 		
 		System.out.println("GitHub commit try");
 		System.out.println("GitHub commit second try");
-		DataConvert date = new DataConvert();
-		date.start();
+		//DataConvert date = new DataConvert();
+		//date.start();
 		
+		//LoopEg1 l = new LoopEg1();
+		//l.start();
+		
+		FencePost f = new FencePost();
+		f.start();
 		
 	}
 
