@@ -1,3 +1,7 @@
+/*
+ * Come back to this one after learning Exception, try, catch!!!
+ */
+
 public class Sentinel {
 
 	public void start() {

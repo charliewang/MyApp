@@ -3,11 +3,9 @@
 public class MyApplication {
 
 	public static void main(String[] args) {
-		
-		//Sentinel t = new Sentinel();
-		ROT13 t = new ROT13();
-		t.start();
-		
+		ClassEg1 a = new ClassEg1();
+		System.out.println(a.c1);
+		a.toString();
 	}
 
 }
