@@ -1,4 +1,8 @@
 public class Circle {
+	// Class variable
+	private static String colour;
+	
+	// Instance variables
 	private int radius;
 	private int xCentre;
 	private int yCentre;
@@ -7,6 +11,7 @@ public class Circle {
 		radius = 10;
 		xCentre = 100;
 		yCentre = 100;
+		colour = "red";
 	}
 
 	public Circle(int initRadius, int initX, int initY) {
@@ -19,9 +24,17 @@ public class Circle {
 		xCentre = x;
 		yCentre = y;
 	}
+	public void setColour(String colour) {
+		Circle.colour = colour;
+	}
 
 	public String toString() {
 		return new String("Circle: (" + xCentre + "," + yCentre
-				+ ") + radius: " + radius);
+				+ ") radius: " + radius + " colour: " + colour);
+	}
+	public boolean equals(Circle other) {
+		return ((radius == other.radius) &&
+				(xCentre == other.xCentre)&&
+				(yCentre == other.yCentre));
 	}
 }

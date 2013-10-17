@@ -3,9 +3,8 @@ public class MyApplication {
 
 	public static void main(String[] args) {
 		
-		testPerson t = new testPerson();
+		ArrayTester t = new ArrayTester();
 		t.start();
-		
 		
 	}
 

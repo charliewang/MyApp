@@ -1,4 +1,4 @@
-public class testPerson {
+public class TestPerson {
 	public void start() {
 		Person p1 = new Person("Charlie", 27, 175, 90);
 		Person p2 = new Person("Tracy", 26, 180, 60);
